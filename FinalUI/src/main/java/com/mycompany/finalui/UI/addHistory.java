@@ -28,196 +28,196 @@ public class addHistory extends javax.swing.JPanel {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        labelStart = new javax.swing.JLabel();
-        labelTimeStart = new javax.swing.JLabel();
-        labelEnd = new javax.swing.JLabel();
-        labelTimeEnd = new javax.swing.JLabel();
-        inputStart = new javax.swing.JTextField();
-        inputTimeStartDay = new javax.swing.JTextField();
-        inputTimeStartMonth = new javax.swing.JTextField();
-        inputTimeStartYear = new javax.swing.JTextField();
-        inputEnd = new javax.swing.JTextField();
-        inputTimeEndDay = new javax.swing.JTextField();
-        inputTimeEndMonth = new javax.swing.JTextField();
-        inputTimeEndYear = new javax.swing.JTextField();
-        labelTinhTrang = new javax.swing.JLabel();
-        inputTinhTrang = new javax.swing.JTextField();
-        labelDauHieu = new javax.swing.JLabel();
-        checkHo = new javax.swing.JRadioButton();
-        checkSot = new javax.swing.JRadioButton();
-        checkKhoTho = new javax.swing.JRadioButton();
-        checkNone = new javax.swing.JRadioButton();
-        labelTest = new javax.swing.JLabel();
-        selectTest = new javax.swing.JComboBox<>();
-        labelCachLy = new javax.swing.JLabel();
-        selectCachLy = new javax.swing.JComboBox<>();
-        listTiepXuc = new javax.swing.JLabel();
-        labelName = new javax.swing.JLabel();
-        labelID = new javax.swing.JLabel();
-        labelTime = new javax.swing.JLabel();
-        inputName = new javax.swing.JTextField();
-        inputID = new javax.swing.JTextField();
-        inputTimeTiepXuc = new javax.swing.JTextField();
-        buttomSave = new javax.swing.JButton();
-        buttomExit = new javax.swing.JButton();
-        labelNumofTest = new javax.swing.JLabel();
-        selectNumofTest = new javax.swing.JComboBox<>();
-        labelXepLoai = new javax.swing.JLabel();
-        selectXepLoai = new javax.swing.JComboBox<>();
-        labelXepLoai2 = new javax.swing.JLabel();
-        selectXepLoai2 = new javax.swing.JComboBox<>();
-        labelNote = new javax.swing.JLabel();
-        showNote = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jTextField4 = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextField();
+        jTextField6 = new javax.swing.JTextField();
+        jTextField7 = new javax.swing.JTextField();
+        jTextField8 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        jTextField9 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jRadioButton2 = new javax.swing.JRadioButton();
+        jRadioButton3 = new javax.swing.JRadioButton();
+        jRadioButton4 = new javax.swing.JRadioButton();
+        jLabel8 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jLabel9 = new javax.swing.JLabel();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jTextField10 = new javax.swing.JTextField();
+        jTextField11 = new javax.swing.JTextField();
+        jTextField12 = new javax.swing.JTextField();
+        jButton2 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jComboBox3 = new javax.swing.JComboBox<>();
+        jLabel14 = new javax.swing.JLabel();
+        jComboBox4 = new javax.swing.JComboBox<>();
+        jLabel15 = new javax.swing.JLabel();
+        jComboBox5 = new javax.swing.JComboBox<>();
+        jLabel16 = new javax.swing.JLabel();
+        jTextField13 = new javax.swing.JTextField();
 
-        labelStart.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelStart.setText("Nơi xuất phát:");
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setText("Nơi xuất phát:");
 
-        labelTimeStart.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelTimeStart.setText("Thời gian xuất phát");
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setText("Thời gian xuất phát");
 
-        labelEnd.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelEnd.setText("Đích đến");
+        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setText("Đích đến");
 
-        labelTimeEnd.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelTimeEnd.setText("Thời gian đến:");
+        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setText("Thời gian đến:");
 
-        inputStart.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        inputTimeStartDay.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        inputTimeStartDay.setText("dd");
-        inputTimeStartDay.addActionListener(new java.awt.event.ActionListener() {
+        jTextField2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField2.setText("dd");
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                inputTimeStartDayActionPerformed(evt);
+                jTextField2ActionPerformed(evt);
             }
         });
 
-        inputTimeStartMonth.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        inputTimeStartMonth.setText("mm");
-        inputTimeStartMonth.addActionListener(new java.awt.event.ActionListener() {
+        jTextField3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField3.setText("mm");
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                inputTimeStartMonthActionPerformed(evt);
+                jTextField3ActionPerformed(evt);
             }
         });
 
-        inputTimeStartYear.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        inputTimeStartYear.setText("yyyy");
+        jTextField4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField4.setText("yyyy");
 
-        inputEnd.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        inputTimeEndDay.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        inputTimeEndDay.setText("dd");
+        jTextField6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField6.setText("dd");
 
-        inputTimeEndMonth.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        inputTimeEndMonth.setText("mm");
-        inputTimeEndMonth.addActionListener(new java.awt.event.ActionListener() {
+        jTextField7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField7.setText("mm");
+        jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                inputTimeEndMonthActionPerformed(evt);
+                jTextField7ActionPerformed(evt);
             }
         });
 
-        inputTimeEndYear.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        inputTimeEndYear.setText("yyyy");
+        jTextField8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField8.setText("yyyy");
 
-        labelTinhTrang.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelTinhTrang.setText("Tình trạng sức khoẻ:");
+        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setText("Tình trạng sức khoẻ:");
 
-        inputTinhTrang.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        labelDauHieu.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelDauHieu.setText("Dấu hiệu bất thường");
+        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setText("Dấu hiệu bất thường");
 
-        checkHo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        checkHo.setText("Ho");
-        checkHo.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jRadioButton1.setText("Ho");
+        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                checkHoActionPerformed(evt);
+                jRadioButton1ActionPerformed(evt);
             }
         });
 
-        checkSot.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        checkSot.setText("Sốt");
+        jRadioButton2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jRadioButton2.setText("Sốt");
 
-        checkKhoTho.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        checkKhoTho.setText("Khó thở");
-        checkKhoTho.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jRadioButton3.setText("Khó thở");
+        jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                checkKhoThoActionPerformed(evt);
+                jRadioButton3ActionPerformed(evt);
             }
         });
 
-        checkNone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        checkNone.setText("Không");
+        jRadioButton4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jRadioButton4.setText("Không");
 
-        labelTest.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelTest.setText("Đã test Covid chưa:");
+        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setText("Đã test Covid chưa:");
 
-        selectTest.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        selectTest.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Chưa", "Rồi" }));
+        jComboBox1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Chưa", "Rồi" }));
 
-        labelCachLy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelCachLy.setText("Cách ly:");
+        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setText("Cách ly:");
 
-        selectCachLy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        selectCachLy.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Đã đủ 14 ngày", "Chưa đủ 14 ngày" }));
+        jComboBox2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Đã đủ 14 ngày", "Chưa đủ 14 ngày" }));
 
-        listTiepXuc.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        listTiepXuc.setText("Danh sách tiếp xúc gần:");
+        jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel10.setText("Danh sách tiếp xúc gần:");
 
-        labelName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelName.setText("Họ tên:");
+        jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel11.setText("Họ tên:");
 
-        labelID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelID.setText("Số CMND/CCCD:");
+        jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel12.setText("Số CMND/CCCD:");
 
-        labelTime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelTime.setText("Thời gian tiếp xúc:");
+        jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel13.setText("Thời gian tiếp xúc:");
 
-        inputName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        inputID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        inputTimeTiepXuc.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        buttomSave.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        buttomSave.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Paomedia-Small-N-Flat-Floppy-0.png")); // NOI18N
-        buttomSave.setText("Lưu lại");
-        buttomSave.addActionListener(new java.awt.event.ActionListener() {
+        jButton2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Paomedia-Small-N-Flat-Floppy-0.png")); // NOI18N
+        jButton2.setText("Lưu lại");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttomSaveActionPerformed(evt);
+                jButton2ActionPerformed(evt);
             }
         });
 
-        buttomExit.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        buttomExit.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Awicons-Vista-Artistic-Delete-0.png")); // NOI18N
-        buttomExit.setText("Thoát");
-        buttomExit.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Awicons-Vista-Artistic-Delete-0.png")); // NOI18N
+        jButton1.setText("Thoát");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttomExitActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
 
-        labelNumofTest.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelNumofTest.setText("Số lần xét nghiệm:");
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setText("Số lần xét nghiệm:");
 
-        selectNumofTest.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        selectNumofTest.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1 lần", "2 lần", "3 lần", "4lần" }));
+        jComboBox3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1 lần", "2 lần", "3 lần", "4lần" }));
 
-        labelXepLoai.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelXepLoai.setText("Xếp loại:");
+        jLabel14.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel14.setText("Xếp loại:");
 
-        selectXepLoai.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        selectXepLoai.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "F0", "F1", "F2", "F3", "F4", "F5" }));
+        jComboBox4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "F0", "F1", "F2", "F3", "F4", "F5" }));
 
-        labelXepLoai2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelXepLoai2.setText("Xếp loại:");
+        jLabel15.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel15.setText("Xếp loại:");
 
-        selectXepLoai2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        selectXepLoai2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "F0", "F1", "F2", "F3", "F4", "F5" }));
+        jComboBox5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "F0", "F1", "F2", "F3", "F4", "F5" }));
 
-        labelNote.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        labelNote.setText("Ghi chú (nếu có):");
+        jLabel16.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel16.setText("Ghi chú (nếu có):");
 
-        showNote.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -226,87 +226,87 @@ public class addHistory extends javax.swing.JPanel {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(showNote)
+                    .addComponent(jTextField13)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(labelDauHieu)
+                        .addComponent(jLabel7)
                         .addGap(18, 18, 18)
-                        .addComponent(checkHo)
+                        .addComponent(jRadioButton1)
                         .addGap(27, 27, 27)
-                        .addComponent(checkSot)
+                        .addComponent(jRadioButton2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(checkKhoTho)
+                        .addComponent(jRadioButton3)
                         .addGap(18, 18, 18)
-                        .addComponent(checkNone))
+                        .addComponent(jRadioButton4))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(labelEnd)
+                        .addComponent(jLabel4)
                         .addGap(18, 18, 18)
-                        .addComponent(inputEnd))
+                        .addComponent(jTextField5))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(labelTinhTrang)
+                        .addComponent(jLabel6)
                         .addGap(18, 18, 18)
-                        .addComponent(inputTinhTrang))
+                        .addComponent(jTextField9))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(labelTest)
+                        .addComponent(jLabel8)
                         .addGap(18, 18, 18)
-                        .addComponent(selectTest, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(labelCachLy)
+                        .addComponent(jLabel9)
                         .addGap(18, 18, 18)
-                        .addComponent(selectCachLy, 0, 1, Short.MAX_VALUE))
+                        .addComponent(jComboBox2, 0, 1, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(labelName)
+                        .addComponent(jLabel11)
                         .addGap(18, 18, 18)
-                        .addComponent(inputName))
+                        .addComponent(jTextField10))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(labelID)
+                        .addComponent(jLabel12)
                         .addGap(18, 18, 18)
-                        .addComponent(inputID))
+                        .addComponent(jTextField11))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(labelStart)
+                        .addComponent(jLabel2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(inputStart))
+                        .addComponent(jTextField1))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addComponent(buttomSave)
+                                    .addComponent(jButton2)
                                     .addGap(18, 18, 18)
-                                    .addComponent(buttomExit))
+                                    .addComponent(jButton1))
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(labelNumofTest)
+                                        .addComponent(jLabel1)
                                         .addGap(18, 18, 18)
-                                        .addComponent(selectNumofTest, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(labelXepLoai)
+                                        .addComponent(jLabel14)
                                         .addGap(18, 18, 18)
-                                        .addComponent(selectXepLoai, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(listTiepXuc)
+                                        .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLabel10)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(labelTimeStart)
+                                        .addComponent(jLabel3)
                                         .addGap(18, 18, 18)
-                                        .addComponent(inputTimeStartDay, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(inputTimeStartMonth, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(inputTimeStartYear, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(labelTimeEnd)
+                                        .addComponent(jLabel5)
                                         .addGap(18, 18, 18)
-                                        .addComponent(inputTimeEndDay, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(inputTimeEndMonth, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(inputTimeEndYear, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(labelTime)
+                                        .addComponent(jLabel13)
                                         .addGap(18, 18, 18)
-                                        .addComponent(inputTimeTiepXuc, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(labelXepLoai2)
+                                        .addComponent(jLabel15)
                                         .addGap(18, 18, 18)
-                                        .addComponent(selectXepLoai2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addComponent(labelNote))
+                                        .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(jLabel16))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -315,71 +315,71 @@ public class addHistory extends javax.swing.JPanel {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelStart)
-                    .addComponent(inputStart, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel2)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelTimeStart)
-                    .addComponent(inputTimeStartDay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(inputTimeStartMonth, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(inputTimeStartYear, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel3)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelEnd)
-                    .addComponent(inputEnd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel4)
+                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelTimeEnd)
-                    .addComponent(inputTimeEndDay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(inputTimeEndMonth, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(inputTimeEndYear, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel5)
+                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelTinhTrang)
-                    .addComponent(inputTinhTrang, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel6)
+                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelDauHieu)
-                    .addComponent(checkHo)
-                    .addComponent(checkSot)
-                    .addComponent(checkKhoTho)
-                    .addComponent(checkNone))
+                    .addComponent(jLabel7)
+                    .addComponent(jRadioButton1)
+                    .addComponent(jRadioButton2)
+                    .addComponent(jRadioButton3)
+                    .addComponent(jRadioButton4))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelTest)
-                    .addComponent(selectTest, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(labelCachLy)
-                    .addComponent(selectCachLy, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel8)
+                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel9)
+                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelNumofTest)
-                    .addComponent(selectNumofTest, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(labelXepLoai)
-                    .addComponent(selectXepLoai, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel1)
+                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel14)
+                    .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(17, 17, 17)
-                .addComponent(listTiepXuc)
+                .addComponent(jLabel10)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(inputName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(labelName))
+                    .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel11))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(labelID)
-                    .addComponent(inputID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel12)
+                    .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelTime)
-                    .addComponent(inputTimeTiepXuc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(labelXepLoai2)
-                    .addComponent(selectXepLoai2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel13)
+                    .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel15)
+                    .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(labelNote)
+                .addComponent(jLabel16)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(showNote, javax.swing.GroupLayout.DEFAULT_SIZE, 89, Short.MAX_VALUE)
+                .addComponent(jTextField13, javax.swing.GroupLayout.DEFAULT_SIZE, 89, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(buttomSave, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttomExit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -397,76 +397,76 @@ public class addHistory extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void inputTimeStartDayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputTimeStartDayActionPerformed
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_inputTimeStartDayActionPerformed
+    }//GEN-LAST:event_jTextField2ActionPerformed
 
-    private void inputTimeStartMonthActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputTimeStartMonthActionPerformed
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_inputTimeStartMonthActionPerformed
+    }//GEN-LAST:event_jTextField3ActionPerformed
 
-    private void inputTimeEndMonthActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputTimeEndMonthActionPerformed
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_inputTimeEndMonthActionPerformed
+    }//GEN-LAST:event_jTextField7ActionPerformed
 
-    private void checkHoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkHoActionPerformed
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_checkHoActionPerformed
+    }//GEN-LAST:event_jRadioButton1ActionPerformed
 
-    private void checkKhoThoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkKhoThoActionPerformed
+    private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_checkKhoThoActionPerformed
+    }//GEN-LAST:event_jRadioButton3ActionPerformed
 
-    private void buttomExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttomExitActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_buttomExitActionPerformed
+    }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void buttomSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttomSaveActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_buttomSaveActionPerformed
+    }//GEN-LAST:event_jButton2ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton buttomExit;
-    private javax.swing.JButton buttomSave;
-    private javax.swing.JRadioButton checkHo;
-    private javax.swing.JRadioButton checkKhoTho;
-    private javax.swing.JRadioButton checkNone;
-    private javax.swing.JRadioButton checkSot;
-    private javax.swing.JTextField inputEnd;
-    private javax.swing.JTextField inputID;
-    private javax.swing.JTextField inputName;
-    private javax.swing.JTextField inputStart;
-    private javax.swing.JTextField inputTimeEndDay;
-    private javax.swing.JTextField inputTimeEndMonth;
-    private javax.swing.JTextField inputTimeEndYear;
-    private javax.swing.JTextField inputTimeStartDay;
-    private javax.swing.JTextField inputTimeStartMonth;
-    private javax.swing.JTextField inputTimeStartYear;
-    private javax.swing.JTextField inputTimeTiepXuc;
-    private javax.swing.JTextField inputTinhTrang;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
+    private javax.swing.JComboBox<String> jComboBox4;
+    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JLabel labelCachLy;
-    private javax.swing.JLabel labelDauHieu;
-    private javax.swing.JLabel labelEnd;
-    private javax.swing.JLabel labelID;
-    private javax.swing.JLabel labelName;
-    private javax.swing.JLabel labelNote;
-    private javax.swing.JLabel labelNumofTest;
-    private javax.swing.JLabel labelStart;
-    private javax.swing.JLabel labelTest;
-    private javax.swing.JLabel labelTime;
-    private javax.swing.JLabel labelTimeEnd;
-    private javax.swing.JLabel labelTimeStart;
-    private javax.swing.JLabel labelTinhTrang;
-    private javax.swing.JLabel labelXepLoai;
-    private javax.swing.JLabel labelXepLoai2;
-    private javax.swing.JLabel listTiepXuc;
-    private javax.swing.JComboBox<String> selectCachLy;
-    private javax.swing.JComboBox<String> selectNumofTest;
-    private javax.swing.JComboBox<String> selectTest;
-    private javax.swing.JComboBox<String> selectXepLoai;
-    private javax.swing.JComboBox<String> selectXepLoai2;
-    private javax.swing.JTextField showNote;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JRadioButton jRadioButton3;
+    private javax.swing.JRadioButton jRadioButton4;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
     // End of variables declaration//GEN-END:variables
 }
