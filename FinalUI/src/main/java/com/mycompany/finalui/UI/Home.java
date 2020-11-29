@@ -65,7 +65,7 @@ public class Home extends javax.swing.JFrame {
 
         showListPanel.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        dataTable.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        dataTable.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
         dataTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
@@ -176,6 +176,7 @@ public class Home extends javax.swing.JFrame {
         showListPanel.setViewportView(dataTable);
 
         jButton1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\FinalUI\\src\\icon\\statistics.png")); // NOI18N
         jButton1.setText("Thống kê");
         jButton1.setPreferredSize(new java.awt.Dimension(93, 29));
 
@@ -183,6 +184,7 @@ public class Home extends javax.swing.JFrame {
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dương tính", "Âm tính", "Đã cách ly", "Chưa cách ly" }));
 
         jButton2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\FinalUI\\src\\icon\\eye.png")); // NOI18N
         jButton2.setText("Xem chi tiết");
 
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
@@ -195,15 +197,15 @@ public class Home extends javax.swing.JFrame {
                     .add(showListPanel)
                     .add(jPanel1Layout.createSequentialGroup()
                         .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                            .add(buttomAdd, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 111, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                            .add(jButton1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .add(jButton1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 121, Short.MAX_VALUE)
+                            .add(buttomAdd, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .add(67, 67, 67)
                         .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING, false)
                             .add(jComboBox1, 0, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .add(jButton2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .add(74, 74, 74)
+                        .add(70, 70, 70)
                         .add(buttomEdit)
-                        .add(65, 65, 65)
+                        .add(69, 69, 69)
                         .add(buttomDelete)))
                 .addContainerGap())
         );
@@ -217,10 +219,10 @@ public class Home extends javax.swing.JFrame {
                     .add(buttomDelete)
                     .add(jButton2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 29, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
                 .add(29, 29, 29)
-                .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
-                    .add(jComboBox1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                    .add(jButton1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-                .add(18, 18, 18)
+                .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING, false)
+                    .add(jButton1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 33, Short.MAX_VALUE)
+                    .add(jComboBox1))
+                .add(22, 22, 22)
                 .add(showListPanel, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(57, Short.MAX_VALUE))
         );
