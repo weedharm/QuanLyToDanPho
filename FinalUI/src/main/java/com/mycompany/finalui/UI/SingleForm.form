@@ -51,12 +51,12 @@
                       <Component id="showLichTriinh" alignment="0" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
+                              <Group type="102" attributes="0">
                                   <Component id="labelTinhTrang" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="selectTinhTrang" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="selectTinhTrang" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <Component id="labelTest" min="-2" max="-2" attributes="0"/>
@@ -111,9 +111,9 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="labelDiaChi" min="-2" pref="125" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                  <Component id="inputDiaChi" min="-2" pref="413" max="-2" attributes="0"/>
+                                  <Component id="labelDiaChi" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="inputDiaChi" min="-2" pref="408" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="labelNoiSinh" min="-2" max="-2" attributes="0"/>
@@ -516,7 +516,7 @@
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="2">
                 <StringItem index="0" value="&#x110;&#xe3; khai b&#xe1;o"/>
-                <StringItem index="1" value="Ch&#x1b0;a khai b&#xe1;o"/>
+                <StringItem index="1" value="Ch&#x1b0;a c&#xf3; th&#xf4;ng tin"/>
               </StringArray>
             </Property>
           </Properties>

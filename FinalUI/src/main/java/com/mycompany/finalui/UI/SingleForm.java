@@ -188,7 +188,7 @@ public class SingleForm extends javax.swing.JPanel {
         labelTinhTrang.setText("Tình trạng khai báo:");
 
         selectTinhTrang.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        selectTinhTrang.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Đã khai báo", "Chưa khai báo" }));
+        selectTinhTrang.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Đã khai báo", "Chưa có thông tin" }));
 
         labelCachLy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         labelCachLy.setText("Tình trạng sức khoẻ:");
@@ -270,10 +270,10 @@ public class SingleForm extends javax.swing.JPanel {
                     .addComponent(showLichTriinh)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                            .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(labelTinhTrang)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(selectTinhTrang, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(selectTinhTrang, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -315,9 +315,9 @@ public class SingleForm extends javax.swing.JPanel {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(labelDiaChi, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(26, 26, 26)
-                                .addComponent(inputDiaChi, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(labelDiaChi, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(inputDiaChi, javax.swing.GroupLayout.PREFERRED_SIZE, 408, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(labelNoiSinh)
                                 .addGap(18, 18, 18)

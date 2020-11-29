@@ -16,6 +16,7 @@ public class Home extends javax.swing.JFrame {
     /** Creates new form Home */
     public Home() {
         initComponents();
+        setLocation(0,0);
     }
 
     /** This method is called from within the constructor to
@@ -31,10 +32,12 @@ public class Home extends javax.swing.JFrame {
         buttomAdd = new javax.swing.JButton();
         buttomEdit = new javax.swing.JButton();
         buttomDelete = new javax.swing.JButton();
-        buttomSave = new javax.swing.JButton();
-        buttomExit = new javax.swing.JButton();
         showListPanel = new javax.swing.JScrollPane();
         dataTable = new javax.swing.JTable();
+        jButton1 = new javax.swing.JButton();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jButton2 = new javax.swing.JButton();
+        buttomExit = new javax.swing.JButton();
         menuBar = new javax.swing.JMenuBar();
         tuychon = new javax.swing.JMenu();
         switchAccount = new javax.swing.JMenu();
@@ -44,6 +47,8 @@ public class Home extends javax.swing.JFrame {
         showInfo = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1536, 840));
+        setSize(new java.awt.Dimension(1536, 840));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         buttomAdd.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -57,19 +62,6 @@ public class Home extends javax.swing.JFrame {
         buttomDelete.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         buttomDelete.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Hopstarter-Soft-Scraps-File-Delete-0.png")); // NOI18N
         buttomDelete.setText("Xoá hồ sơ");
-
-        buttomSave.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        buttomSave.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Paomedia-Small-N-Flat-Floppy-0.png")); // NOI18N
-        buttomSave.setText("Lưu");
-        buttomSave.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buttomSaveActionPerformed(evt);
-            }
-        });
-
-        buttomExit.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        buttomExit.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Awicons-Vista-Artistic-Delete-0.png")); // NOI18N
-        buttomExit.setText("Đăng xuất & Thoát");
 
         showListPanel.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
@@ -183,6 +175,16 @@ public class Home extends javax.swing.JFrame {
         ));
         showListPanel.setViewportView(dataTable);
 
+        jButton1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButton1.setText("Thống kê");
+        jButton1.setPreferredSize(new java.awt.Dimension(93, 29));
+
+        jComboBox1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dương tính", "Âm tính", "Đã cách ly", "Chưa cách ly" }));
+
+        jButton2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButton2.setText("Xem chi tiết");
+
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -192,15 +194,17 @@ public class Home extends javax.swing.JFrame {
                 .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(showListPanel)
                     .add(jPanel1Layout.createSequentialGroup()
-                        .add(buttomAdd, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 111, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
+                        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                            .add(buttomAdd, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 111, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                            .add(jButton1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .add(67, 67, 67)
+                        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING, false)
+                            .add(jComboBox1, 0, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .add(jButton2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .add(74, 74, 74)
                         .add(buttomEdit)
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                        .add(buttomDelete)
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                        .add(buttomSave)
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                        .add(buttomExit, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 197, Short.MAX_VALUE)))
+                        .add(65, 65, 65)
+                        .add(buttomDelete)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -211,14 +215,22 @@ public class Home extends javax.swing.JFrame {
                     .add(buttomAdd)
                     .add(buttomEdit)
                     .add(buttomDelete)
-                    .add(buttomSave)
-                    .add(buttomExit))
+                    .add(jButton2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 29, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
                 .add(29, 29, 29)
+                .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
+                    .add(jComboBox1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                    .add(jButton1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                .add(18, 18, 18)
                 .add(showListPanel, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(57, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        buttomExit.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        buttomExit.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Awicons-Vista-Artistic-Delete-0.png")); // NOI18N
+        buttomExit.setText("Đăng xuất");
+        getContentPane().add(buttomExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(577, 610, 160, -1));
 
         tuychon.setText("Tuỳ chọn");
         tuychon.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -250,10 +262,6 @@ public class Home extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void buttomSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttomSaveActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_buttomSaveActionPerformed
 
     /**
      * @param args the command line arguments
@@ -295,9 +303,11 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JButton buttomDelete;
     private javax.swing.JButton buttomEdit;
     private javax.swing.JButton buttomExit;
-    private javax.swing.JButton buttomSave;
     private javax.swing.JTable dataTable;
     private javax.swing.JMenu exit;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JMenu logOut;
     private javax.swing.JMenuBar menuBar;
