@@ -1,0 +1,16 @@
+-- dua ra thong tin cán bộ y tế,... trong bảng chức vụ
+select * from canbo 
+where chucvu=n'Cán bộ y tế'
+
+-- dua ra nhung người là f0 và gia đình (tuong tu f1 f2)
+select * from nhankhau
+INNER JOIN Trangthai ON Nhankhau.ID=Trangthai.IDNhanKhau
+where Mucdocachly = 'f0'
+
+
+-- dua ra thong tin nhung nguoi da khoi benh
+select * from nhankhau
+INNER JOIN Trangthai ON Nhankhau.ID=Trangthai.IDNhanKhau
+where Mucdocachly = 'f0' and ketqua = N'Âm tính'
+
+
