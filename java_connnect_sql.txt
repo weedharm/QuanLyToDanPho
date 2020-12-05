@@ -1,0 +1,18 @@
+//khoi tao
+ontext context = new InitialContext();
+DataSource dataSource = (DataSource) context.lookup("java:comp/env/jdbc/myDB");
+
+// ket noi mac dinh
+MysqlDataSource dataSource = new MysqlDataSource();
+dataSource.setUser("scott");
+dataSource.setPassword("tiger");
+dataSource.setServerName("myDBHost.example.org");
+
+//dong ket noi
+Connection conn = dataSource.getConnection();
+Statement stmt = conn.createStatement();
+ResultSet rs = stmt.executeQuery("SELECT ID FROM USERS");
+...
+rs.close();
+stmt.close();
+conn.close();
