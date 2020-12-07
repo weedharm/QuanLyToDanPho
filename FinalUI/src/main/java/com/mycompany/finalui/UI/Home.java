@@ -232,7 +232,7 @@ public class Home extends javax.swing.JFrame {
         buttomExit.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         buttomExit.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Awicons-Vista-Artistic-Delete-0.png")); // NOI18N
         buttomExit.setText("Đăng xuất");
-        getContentPane().add(buttomExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(577, 610, 160, -1));
+        getContentPane().add(buttomExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 620, 160, 29));
 
         tuychon.setText("Tuỳ chọn");
         tuychon.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
