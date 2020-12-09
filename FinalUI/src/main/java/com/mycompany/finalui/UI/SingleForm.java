@@ -62,9 +62,6 @@ public class SingleForm extends javax.swing.JPanel {
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
         lichTrinh = new javax.swing.JTextField();
-        nutLuu = new javax.swing.JButton();
-        nutThem = new javax.swing.JButton();
-        nutXem = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         nhapID = new javax.swing.JTextField();
         chonLanTest = new javax.swing.JComboBox<>();
@@ -187,18 +184,6 @@ public class SingleForm extends javax.swing.JPanel {
 
         lichTrinh.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        nutLuu.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        nutLuu.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Paomedia-Small-N-Flat-Floppy-0.png")); // NOI18N
-        nutLuu.setText("Lưu");
-
-        nutThem.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        nutThem.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\Icojam-Blue-Bits-Math-add-0.png")); // NOI18N
-        nutThem.setText("Thêm lịch trình");
-
-        nutXem.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        nutXem.setIcon(new javax.swing.ImageIcon("D:\\Workspace\\JAVA\\MyApp\\src\\icon\\view-icon.png")); // NOI18N
-        nutXem.setText("Xem lịch trình");
-
         jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel1.setText("ID");
 
@@ -311,14 +296,6 @@ public class SingleForm extends javax.swing.JPanel {
                                 .addComponent(jLabel10)
                                 .addGap(0, 0, Short.MAX_VALUE)))
                         .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(nutThem)
-                        .addGap(36, 36, 36)
-                        .addComponent(nutXem)
-                        .addGap(31, 31, 31)
-                        .addComponent(nutLuu)
-                        .addGap(35, 35, 35))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel18)
                         .addGap(0, 0, Short.MAX_VALUE))))
@@ -388,13 +365,8 @@ public class SingleForm extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel18)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lichTrinh, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(16, 16, 16)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nutLuu)
-                    .addComponent(nutXem)
-                    .addComponent(nutThem))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(lichTrinh, javax.swing.GroupLayout.DEFAULT_SIZE, 232, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -458,8 +430,5 @@ public class SingleForm extends javax.swing.JPanel {
     private javax.swing.JTextField nhapThoigian;
     private javax.swing.JTextField nhapTinhTrang;
     private javax.swing.JTextField nhapTonGiao;
-    private javax.swing.JButton nutLuu;
-    private javax.swing.JButton nutThem;
-    private javax.swing.JButton nutXem;
     // End of variables declaration//GEN-END:variables
 }
