@@ -27,82 +27,82 @@ public class detailForm extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        labelChiTiet = new javax.swing.JLabel();
+        labelID = new javax.swing.JLabel();
         fieldID = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
+        labelHoTen = new javax.swing.JLabel();
         fieldHoTen = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
+        labelHoKhau = new javax.swing.JLabel();
+        labelQH = new javax.swing.JLabel();
+        labelNgaySinh = new javax.swing.JLabel();
+        labelGioiTinh = new javax.swing.JLabel();
+        labelNoiSinh = new javax.swing.JLabel();
+        labelNguyenQuan = new javax.swing.JLabel();
+        labelDanToc = new javax.swing.JLabel();
+        labelTonGiao = new javax.swing.JLabel();
+        labelNgheNghiep = new javax.swing.JLabel();
+        labelCMND = new javax.swing.JLabel();
         fieldHoKhau = new javax.swing.JTextField();
         fieldCMND = new javax.swing.JTextField();
         fieldNgaySinh = new javax.swing.JTextField();
         fieldGioiTinh = new javax.swing.JTextField();
         fieldNoiSinh = new javax.swing.JTextField();
         fieldNguyenQuan = new javax.swing.JTextField();
-        fielđanToc = new javax.swing.JTextField();
+        fieldanToc = new javax.swing.JTextField();
         fieldQHChuHo = new javax.swing.JTextField();
         fieldTonGiao = new javax.swing.JTextField();
         fieldNgheNghiep = new javax.swing.JTextField();
         picture = new javax.swing.JPanel();
-        jLabel14 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        labelGhiChu = new javax.swing.JLabel();
+        jLog = new javax.swing.JScrollPane();
         ghichu = new javax.swing.JTextArea();
         exit = new javax.swing.JButton();
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel1.setText("Thông tin chi tiết");
+        labelChiTiet.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelChiTiet.setText("Thông tin chi tiết");
 
-        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel2.setText("ID");
+        labelID.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelID.setText("ID");
 
         fieldID.setEditable(false);
         fieldID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        jLabel3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel3.setText("Họ tên");
+        labelHoTen.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelHoTen.setText("Họ tên");
 
         fieldHoTen.setEditable(false);
         fieldHoTen.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        jLabel4.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel4.setText("Hộ khẩu");
+        labelHoKhau.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelHoKhau.setText("Hộ khẩu");
 
-        jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel5.setText("Quan hệ với chủ hộ");
+        labelQH.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelQH.setText("Quan hệ với chủ hộ");
 
-        jLabel6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel6.setText("Ngày sinh");
+        labelNgaySinh.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelNgaySinh.setText("Ngày sinh");
 
-        jLabel7.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel7.setText("Giới tính");
+        labelGioiTinh.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelGioiTinh.setText("Giới tính");
 
-        jLabel8.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel8.setText("Nơi sinh");
+        labelNoiSinh.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelNoiSinh.setText("Nơi sinh");
 
-        jLabel9.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel9.setText("Nguyên quán");
-        jLabel9.setToolTipText("");
+        labelNguyenQuan.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelNguyenQuan.setText("Nguyên quán");
+        labelNguyenQuan.setToolTipText("");
 
-        jLabel10.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel10.setText("Dân tộc");
+        labelDanToc.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelDanToc.setText("Dân tộc");
 
-        jLabel11.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel11.setText("Tôn giáo");
+        labelTonGiao.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelTonGiao.setText("Tôn giáo");
 
-        jLabel12.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel12.setText("Nghề nghiệp");
+        labelNgheNghiep.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelNgheNghiep.setText("Nghề nghiệp");
 
-        jLabel13.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel13.setText("CMND");
+        labelCMND.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelCMND.setText("CMND");
 
         fieldHoKhau.setEditable(false);
         fieldHoKhau.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -122,8 +122,8 @@ public class detailForm extends javax.swing.JPanel {
         fieldNguyenQuan.setEditable(false);
         fieldNguyenQuan.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        fielđanToc.setEditable(false);
-        fielđanToc.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        fieldanToc.setEditable(false);
+        fieldanToc.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         fieldQHChuHo.setEditable(false);
         fieldQHChuHo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -147,15 +147,14 @@ public class detailForm extends javax.swing.JPanel {
             .addGap(0, 161, Short.MAX_VALUE)
         );
 
-        jLabel14.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel14.setText("Ghi chú");
+        labelGhiChu.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        labelGhiChu.setText("Ghi chú");
 
         ghichu.setColumns(20);
         ghichu.setRows(5);
-        jScrollPane1.setViewportView(ghichu);
+        jLog.setViewportView(ghichu);
 
         exit.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        exit.setIcon(new javax.swing.ImageIcon("C:\\Users\\ducng\\Máy tính\\CNPM\\QuanLyToDanPho\\FinalUI\\src\\icon\\Awicons-Vista-Artistic-Delete-0.png")); // NOI18N
         exit.setText("Thoát");
         exit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,67 +170,67 @@ public class detailForm extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel9)
+                        .addComponent(labelNguyenQuan)
                         .addGap(18, 18, 18)
                         .addComponent(fieldNguyenQuan))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelChiTiet, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel6)
+                                .addComponent(labelNgaySinh)
                                 .addGap(18, 18, 18)
                                 .addComponent(fieldNgaySinh, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel4)
+                                        .addComponent(labelHoKhau)
                                         .addGap(10, 10, 10)
                                         .addComponent(fieldHoKhau))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel2)
+                                        .addComponent(labelID)
                                         .addGap(18, 18, 18)
                                         .addComponent(fieldID, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel3)
-                                    .addComponent(jLabel13))
+                                    .addComponent(labelHoTen)
+                                    .addComponent(labelCMND))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(fieldHoTen, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(fieldCMND, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel7)
+                                        .addComponent(labelGioiTinh)
                                         .addGap(18, 18, 18)
                                         .addComponent(fieldGioiTinh))))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel12)
+                                        .addComponent(labelNgheNghiep)
                                         .addGap(18, 18, 18)
                                         .addComponent(fieldNgheNghiep)
                                         .addGap(18, 18, 18)
-                                        .addComponent(jLabel11))
+                                        .addComponent(labelTonGiao))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel5)
+                                        .addComponent(labelQH)
                                         .addGap(18, 18, 18)
                                         .addComponent(fieldQHChuHo, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel10)
+                                        .addComponent(labelDanToc)
                                         .addGap(18, 18, 18)
-                                        .addComponent(fielđanToc, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(fieldanToc, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addComponent(fieldTonGiao))))
                         .addGap(18, 18, 18)
                         .addComponent(picture, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel8)
+                        .addComponent(labelNoiSinh)
                         .addGap(29, 29, 29)
                         .addComponent(fieldNoiSinh))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel14)
+                        .addComponent(labelGhiChu)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane1))
+                    .addComponent(jLog))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -242,59 +241,115 @@ public class detailForm extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addComponent(labelChiTiet)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(fieldHoTen, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel2)
+                                .addComponent(labelID)
                                 .addComponent(fieldID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel3)))
+                                .addComponent(labelHoTen)))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
+                            .addComponent(labelHoKhau)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(fieldHoKhau, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel13)
+                                .addComponent(labelCMND)
                                 .addComponent(fieldCMND, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel7)
+                            .addComponent(labelNgaySinh)
+                            .addComponent(labelGioiTinh)
                             .addComponent(fieldNgaySinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(fieldGioiTinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel10)
-                            .addComponent(fielđanToc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(labelQH)
+                            .addComponent(labelDanToc)
+                            .addComponent(fieldanToc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(fieldQHChuHo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(picture, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel11)
+                    .addComponent(labelNgheNghiep)
+                    .addComponent(labelTonGiao)
                     .addComponent(fieldTonGiao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(fieldNgheNghiep, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(22, 22, 22)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
+                    .addComponent(labelNoiSinh)
                     .addComponent(fieldNoiSinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
+                    .addComponent(labelNguyenQuan)
                     .addComponent(fieldNguyenQuan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(jLabel14)
+                .addComponent(labelGhiChu)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLog, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(exit)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
+
+    public javax.swing.JButton getExit() {
+        return exit;
+    }
+
+    public javax.swing.JTextField getFieldCMND() {
+        return fieldCMND;
+    }
+
+    public javax.swing.JTextField getFieldGioiTinh() {
+        return fieldGioiTinh;
+    }
+
+    public javax.swing.JTextField getFieldHoKhau() {
+        return fieldHoKhau;
+    }
+
+    public javax.swing.JTextField getFieldHoTen() {
+        return fieldHoTen;
+    }
+
+    public javax.swing.JTextField getFieldID() {
+        return fieldID;
+    }
+
+    public javax.swing.JTextField getFieldNgaySinh() {
+        return fieldNgaySinh;
+    }
+
+    public javax.swing.JTextField getFieldNgheNghiep() {
+        return fieldNgheNghiep;
+    }
+
+    public javax.swing.JTextField getFieldNguyenQuan() {
+        return fieldNguyenQuan;
+    }
+
+    public javax.swing.JTextField getFieldNoiSinh() {
+        return fieldNoiSinh;
+    }
+
+    public javax.swing.JTextField getFieldQHChuHo() {
+        return fieldQHChuHo;
+    }
+
+    public javax.swing.JTextField getFieldTonGiao() {
+        return fieldTonGiao;
+    }
+
+    public javax.swing.JTextField getFieldDanToc() {
+        return fieldanToc;
+    }
+
+    public javax.swing.JTextArea getGhichu() {
+        return ghichu;
+    }
 
     private void exitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitActionPerformed
         // TODO add your handling code here:
@@ -314,23 +369,23 @@ public class detailForm extends javax.swing.JPanel {
     private javax.swing.JTextField fieldNoiSinh;
     private javax.swing.JTextField fieldQHChuHo;
     private javax.swing.JTextField fieldTonGiao;
-    private javax.swing.JTextField fielđanToc;
+    private javax.swing.JTextField fieldanToc;
     private javax.swing.JTextArea ghichu;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jLog;
+    private javax.swing.JLabel labelCMND;
+    private javax.swing.JLabel labelChiTiet;
+    private javax.swing.JLabel labelDanToc;
+    private javax.swing.JLabel labelGhiChu;
+    private javax.swing.JLabel labelGioiTinh;
+    private javax.swing.JLabel labelHoKhau;
+    private javax.swing.JLabel labelHoTen;
+    private javax.swing.JLabel labelID;
+    private javax.swing.JLabel labelNgaySinh;
+    private javax.swing.JLabel labelNgheNghiep;
+    private javax.swing.JLabel labelNguyenQuan;
+    private javax.swing.JLabel labelNoiSinh;
+    private javax.swing.JLabel labelQH;
+    private javax.swing.JLabel labelTonGiao;
     private javax.swing.JPanel picture;
     // End of variables declaration//GEN-END:variables
 }
